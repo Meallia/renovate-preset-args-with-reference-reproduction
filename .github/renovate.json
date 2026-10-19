@@ -3,14 +3,14 @@
   "packageRules": [
     {
       "description": "This works",
-      "matchDepNames": "abc/*",
+      "matchDepNames": "abc/1/*",
       "extends": [
         "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)"
       ]
     },
     {
       "description": "This does not work",
-      "matchDepNames": "efg/*",
+      "matchDepNames": "abc/2/*",
       "extends": [
         "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)#57be19420641ce81cbed0d73da53ef116da4f6dc"
       ]
