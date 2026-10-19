@@ -75,4 +75,4 @@ The ref should be resolved and not mangled in the last argument, we should get t
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/47179
