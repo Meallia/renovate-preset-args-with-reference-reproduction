@@ -12,7 +12,7 @@
       "description": "This does not work",
       "matchDepNames": "efg/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args.json(bar)#57be19420641ce81cbed0d73da53ef116da4f6dc"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args.json5(bar)#57be19420641ce81cbed0d73da53ef116da4f6dc"
       ]
     }
   ]
