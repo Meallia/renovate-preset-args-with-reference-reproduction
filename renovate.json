@@ -3,16 +3,16 @@
   "packageRules": [
     {
       "description": "This works",
-      "matchDepNames": "*",
+      "matchDepNames": "abc/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args.json(bar)"
       ]
     },
     {
       "description": "This does not work",
-      "matchDepNames": "*",
+      "matchDepNames": "efg/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)#main"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args.json(bar)#57be19420641ce81cbed0d73da53ef116da4f6dc"
       ]
     }
   ]
