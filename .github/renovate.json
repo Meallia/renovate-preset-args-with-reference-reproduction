@@ -5,21 +5,21 @@
       "description": "This works",
       "matchDepNames": "abc/1/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(import-without-ref)"
       ]
     },
     {
       "description": "This does not work",
       "matchDepNames": "abc/2/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)#57be19420641ce81cbed0d73da53ef116da4f6dc"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(import-with-first-commit-sha)#57be19420641ce81cbed0d73da53ef116da4f6dc"
       ]
     },
     {
       "description": "This does not work",
       "matchDepNames": "abc/3/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)#main"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(import-with-branch-name)#main"
       ]
     }
   ]
