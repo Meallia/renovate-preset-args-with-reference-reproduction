@@ -12,7 +12,7 @@
       "description": "This does not work",
       "matchDepNames": "abc/2/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(import-with-first-commit-sha)#57be19420641ce81cbed0d73da53ef116da4f6dc"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(import-with-first-commit-sha)#d8473df4435a64530ffe4541162c2e780d1e5652"
       ]
     },
     {

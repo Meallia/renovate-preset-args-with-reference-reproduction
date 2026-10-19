@@ -23,9 +23,9 @@ For example, in this repo, we get the following package rule:
  "matchDepNames": ["abc/1/*"]
 },
 {
- "addLabel": [
-   # Missing `d` at the end of the hash
-   "import-with-first-commit-sha)#57be19420641ce81cbed0d73da53ef116da4f6d",
+ "addLabels": [
+   # Missing `2` at the end of the hash
+   "import-with-first-commit-sha)#d8473df4435a64530ffe4541162c2e780d1e565",
    # This label was not added in this version of the configuration
    "this-label-has-been-added-only-in-the-latest-version"
  ],
@@ -49,7 +49,7 @@ The ref should be resolved and not mangled in the last argument, we should get t
 
 ```jsonc
 {
- "addLabel": [
+ "addLabels": [
    "import-without-ref",
    "this-label-has-been-added-only-in-the-latest-version"
  ],
@@ -57,14 +57,14 @@ The ref should be resolved and not mangled in the last argument, we should get t
  "matchDepNames": ["abc/1/*"]
 },
 {
- "addLabel": [
+ "addLabels": [
    "import-with-first-commit-sha",
  ],
  "description": ["This does not work"],
  "matchDepNames": ["abc/2/*"]
 },
 {
- "addLabel": [
+ "addLabels": [
    "import-with-branch-name",
    "this-label-has-been-added-only-in-the-latest-version"
  ],
