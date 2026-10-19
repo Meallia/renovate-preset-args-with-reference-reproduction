@@ -14,6 +14,13 @@
       "extends": [
         "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)#57be19420641ce81cbed0d73da53ef116da4f6dc"
       ]
+    },
+    {
+      "description": "This does not work",
+      "matchDepNames": "abc/2/*",
+      "extends": [
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)#main"
+      ]
     }
   ]
 }
