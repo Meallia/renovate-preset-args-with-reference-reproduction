@@ -17,7 +17,7 @@
     },
     {
       "description": "This does not work",
-      "matchDepNames": "abc/2/*",
+      "matchDepNames": "abc/3/*",
       "extends": [
         "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)#main"
       ]
