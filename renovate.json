@@ -1,1 +1,19 @@
-{}
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "This works",
+      "matchDepNames": "*",
+      "extends": [
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)"
+      ]
+    },
+    {
+      "description": "This does not work",
+      "matchDepNames": "*",
+      "extends": [
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(bar)#main"
+      ]
+    }
+  ]
+}
