@@ -12,14 +12,14 @@
       "description": "This does not work",
       "matchDepNames": "abc/2/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(import-with-first-commit-sha)#d8473df4435a64530ffe4541162c2e780d1e5652"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args#d8473df4435a64530ffe4541162c2e780d1e5652(import-with-first-commit-sha)"
       ]
     },
     {
       "description": "This does not work",
       "matchDepNames": "abc/3/*",
       "extends": [
-        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args(import-with-branch-name)#main"
+        "github>meallia/renovate-preset-args-with-reference-reproduction//presets/with-args#main(import-with-branch-name)"
       ]
     }
   ]
